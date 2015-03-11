@@ -2,6 +2,10 @@
   "name": "nursemaid-server",
   "version": "0.1.0",
   "description": "Backend for Nursemaid app",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/montlebalm/nursemaidserver.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
