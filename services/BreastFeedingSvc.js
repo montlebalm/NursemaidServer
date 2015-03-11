@@ -56,7 +56,7 @@ function last(userId, callback) {
     .sortBy('endTime')
     .last()
     .value();
-  console.log('last', result);
+
   callback(null, result);
 }
 
@@ -71,7 +71,7 @@ function remove(userId, itemId, callback) {
       break;
     }
   }
-  console.log('records:', records);
+
   callback();
 }
 

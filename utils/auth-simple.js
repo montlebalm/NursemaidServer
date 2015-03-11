@@ -4,14 +4,14 @@ var Bcrypt = require('bcrypt');
 
 var users = [{
   id: 'u1',
-  email: 'mmontrois@gmail.com',
-  firstName: 'Molly',
+  email: 'chris@chrismontrois.net',
+  firstName: 'Chris',
   lastName: 'Montrois',
   password: '$2a$10$DyzqCRKnLLiPs9/8U15Y2u3ZCGlz49XaArsUA6ZWzWGm/iyPjnuK.'
 }, {
   id: 'u2',
-  email: 'chris@chrismontrois.net',
-  firstName: 'Chris',
+  email: 'mmontrois@gmail.com',
+  firstName: 'Molly',
   lastName: 'Montrois',
   password: '$2a$10$DyzqCRKnLLiPs9/8U15Y2u3ZCGlz49XaArsUA6ZWzWGm/iyPjnuK.'
 }];
